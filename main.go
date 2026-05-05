@@ -93,7 +93,8 @@ func initData() {
 		{Name: "✅ ZERO ⤷4⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ts"},
 		{Name: "😁 ZERO ⤷5⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ch"},
 		{Name: "💖 ZERO ⤷6⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/gen"},
-		{Name: "💞 ZERO ⤷7⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ivs"},		
+		{Name: "💞 ZERO ⤷7⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ivs"},
+		{Name: "👿 ZERO ⤷8⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pro"},		
 	}
 
 	botConfig = make([]Server, len(hardcoded))
