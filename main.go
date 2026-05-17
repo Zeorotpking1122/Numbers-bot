@@ -95,7 +95,9 @@ func initData() {
 		{Name: "💖 ZERO ⤷GREEN⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/gen"},
 		{Name: "💞 ZERO ⤷IVS⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ivs"},
 		{Name: "👿 ZERO ⤷pro⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pro"},
-		{Name: "👿 ZERO ⤷Roxy⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/roxy"},	
+		{Name: "👽 ZERO ⤷HADI⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/hs"},
+		{Name: "👀 ZERO ⤷PURPLE⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pp"},	
+		
 	}
 
 	botConfig = make([]Server, len(hardcoded))
@@ -113,8 +115,7 @@ func initData() {
 	defaultChannels := []Channel{
 		{Name: "ᴢᴇʀᴏᴛʀᴀᴄᴇɴᴜᴍs", Link: "https://t.me/ZeroTraceNums", ID: "-1003233736476"},
 		{Name: "𝚣𝚎𝚛𝚘𝚝𝚛𝚊𝚌𝚎𝚗𝚞𝚖𝚜 𝚘𝚝𝚙", Link: "https://t.me/ZeroTraceNums1", ID: "-1003414638512"},
-		{Name: "WhatsApp Numbers group", Link: "https://chat.whatsapp.com/LwPIdOAbtmnBUhSr0qbNxg?mode=wwt", ID: ""},
-		{Name: "WhatsApp 𝚘𝚝𝚙", Link: "https://whatsapp.com/channel/0029VaSudNI4dTnSwd5Q4K1Z", ID: ""},
+		
 	}
 	if err := loadJSON(ChannelsFile, &reqChannels); err != nil || len(reqChannels) == 0 {
 		reqChannels = defaultChannels
