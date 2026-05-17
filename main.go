@@ -93,10 +93,11 @@ func initData() {
 		{Name: "✅ ZERO ⤷TIME⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ts"},
 		{Name: "😁 ZERO ⤷CH⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ch"},
 		{Name: "💖 ZERO ⤷GREEN⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/gen"},
-		{Name: "💞 ZERO ⤷IVS⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/ivs"},
+		{Name: "💞 ZERO ⤷IVS⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/roxy"},
 		{Name: "👿 ZERO ⤷pro⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pro"},
 		{Name: "👽 ZERO ⤷HADI⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/hs"},
-		{Name: "👀 ZERO ⤷PURPLE⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pp"},	
+		{Name: "👀 ZERO ⤷PURPLE⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/pp"},
+		{Name: "🥰 ZERO ⤷ZENTO⤶", BaseURL: "https://ali-api-proo.up.railway.app/api/zen"},	
 		
 	}
 
